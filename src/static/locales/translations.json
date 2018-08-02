@@ -1,0 +1,28 @@
+{
+  "en" : {
+    "lbl.description": "Click the button below to get & display users",
+    "lbl.more.details": "For that, we are using a fake online Rest API for testing and prototyping",
+    "btn.get.users": "Get Users",
+    "lbl.widgets":"Widgets",
+    "btn.raise.warning": "Raise Warning",
+    "btn.raise.information": "Raise Information",
+    "btn.show.loader": "Loader",
+    "btn.back": "Back Home",
+    "lbl.users.list": "Available users",
+    "err.no.user.found": "Oops! No Matching Users Found!"
+  },
+
+  "fr": {
+    "lbl.description": "Cliquez sur le bouton ci-dessous pour obtenir et afficher les utilisateurs",
+    "lbl.more.details": "Pour cela, nous utilisons une API Rest en ligne de test et prototypage",
+    "btn.get.users": "Afficher Utilisateurs",
+    "lbl.widgets":"Widgets",
+    "btn.raise.warning": "Avertissement",
+    "btn.raise.information": "Information",
+    "btn.show.loader": "Sablier",
+    "btn.back": "Retour",
+    "lbl.users.list": "Utilisateurs Disponibles",
+    "err.no.user.found": "Oops! Aucun utilisateur correspondant trouvé!"
+  }
+}
+

@@ -1,0 +1,128 @@
+/*
+
+  In this style sheet we declare styles that could be used in all routes and components
+
+ */
+
+
+.action-btn {
+  padding: 15px;
+  border-radius: .7em;
+  cursor: pointer;
+  outline: none;
+  min-width: 150px;
+  font-family: ACME;
+  color: #FFF;
+  letter-spacing: 1px;
+  border: 0;
+}
+
+.large {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: 5px;
+  background: @blackcurrant;
+}
+
+.primary {
+  background: #0288D1;
+}
+
+.title {
+  font-size: 18px;
+  letter-spacing: 2.5px;
+}
+
+.loader {
+  position: fixed;
+  bottom: 5px;
+  z-index: 5;
+  right: 8px;
+  height: 36px;
+}
+
+.error-bloc {
+  display: inline-block;
+  position: fixed;
+  bottom: 46px;
+  right: 1px;
+  min-width: 250px;
+}
+
+.error-title {
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+  border-top-right-radius: 1em;
+}
+
+.error-title-info {
+  background-color: @blue;
+}
+
+.error-title-warn {
+  background-color: @pink;
+}
+
+.error-message {
+  padding: 25px;
+  background-color: #FFF;
+  margin-top: -3px;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.error-message-warn {
+  color: @red;
+}
+
+.error-message-info {
+  color: @blue;
+}
+
+.close-error {
+  float: right;
+  font-size: 23px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.fade-in {
+  animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s; /* Firefox */
+  -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+  -o-animation: fadein 1.5s; /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity: 1;
+  }
+}

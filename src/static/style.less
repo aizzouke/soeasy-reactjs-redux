@@ -1,0 +1,134 @@
+/*
+
+ Import created style sheets, the order should be respected
+
+ */
+
+
+@import "normalizer.less";
+@import "fonts.less";
+@import "colors.less";
+@import "common.less";
+
+
+/*
+
+ It's possible to use a specific styles for your component or routes, so we'll put them in this style sheet using component id
+
+*/
+
+#header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  min-height: 60px;
+  background: @aqua;
+  z-index: 1;
+  .header-text {
+    float: right;
+    padding-right: 15px;
+    color: @grey;
+    line-height: 30px;
+  }
+}
+
+#main {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 45px;
+    overflow-y: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+    color: #FFF;
+    text-align: center;
+    top: 45px;
+    border: 0;
+    .icon-height {
+      height: 36px;
+    }
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 45px;
+  display: block;
+  z-index: -1;
+  background: @grey;
+  letter-spacing: 2px;
+  .footer-text {
+    float: left;
+    padding-left: 15px;
+    color: @white;
+  }
+}
+
+#first-page {
+  display: inline-block;
+  a {
+    color: @green
+  }
+}
+#second-page {
+  display: inline-block;
+  text-align: center;
+  padding: 19px;
+  background-color: @dark-grey;
+  border-radius: 1em;
+  @media all and (max-width: 350px) {
+    min-width: 250px;
+  }
+  @media all and (min-width: 351px) {
+    min-width: 340px;
+  }
+
+  .user-box {
+    display: table;
+    width: 100%;
+    border-radius: .3em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 5px;
+  }
+  .orange-box {
+    color: @black;
+    background: @light-orange;
+  }
+  .empty-list {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .id-badge {
+    float: right;
+    padding: 11px;
+    background-color: @light-grey;
+    color: @white;
+    border-radius: 50%;
+    width: 15px;
+    text-align: center;
+    margin-right: 5px;
+    box-shadow: 0px 0px 5px @light-grey;
+  }
+
+}
+
+#clear-fix-space {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  padding-bottom: 3em;
+}
+
+.red-text {
+  color: @red;
+}
+
+
