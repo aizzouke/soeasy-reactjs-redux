@@ -42,8 +42,9 @@ npm run production
 
 Fake Online REST API for Testing and Prototyping 
 
-__https://jsonplaceholder.typicode.com/__
 ```
+
+https://jsonplaceholder.typicode.com/
 
 ### You need help ?
 Contact me : a.iz@outlook.com 
