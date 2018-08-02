@@ -35,13 +35,16 @@ npm run production
 
 - Eslinting : Based on _AirBnb__ configurtion
 
+### It looks like 
+
+![alt text](https://github.com/aizzouke/soeasy-reactjs-redux/blob/master/it_look_like.png)
+
 ### Thanks To 
 
 ```
 { JSON : Placeholder }
 
 Fake Online REST API for Testing and Prototyping 
-
 ```
 
 https://jsonplaceholder.typicode.com/
