@@ -15,7 +15,7 @@ To run it in localhost :
 ```
 npm run developement
 
-Then Launch __http://localhost:3000__
+Then Launch http://localhost:3000
 ```
 
 To build production sources :
