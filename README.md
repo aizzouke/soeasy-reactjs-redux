@@ -1,5 +1,5 @@
 # soeasy-reactjs-redux
-Sample applications for React.js and Redux
+Sample application for React.js and Redux
 
 ### Installation
 
